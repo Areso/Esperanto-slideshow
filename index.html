@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<link rel="shortcut icon" id="gameIcon" type="image/x-icon" href="favicon-normal.png">
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>
+		Mnemonic Slideshow
+	</title>
+	<style>
+		.red {
+			color: red;
+		}
+		div { text-align: center; }
+		table { margin-left:auto;margin-right:auto; }
+	</style>
+	</head>
+	<body>
+		<div>
+			<video controls autoplay muted>
+				<source src="blinker.mp4" type="video/mp4">
+			</video>
+			<a href="https://github.com/Areso/Spanish-exercises" >
+					GitHub Homepage</a> <span style="margin-left:20px">
+					<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+					<script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'S6S6D33H0');kofiwidget2.draw();</script>
+					</span>
+			<div id="divTopicSelector" style="display: none">
+				<select id="topicSelector" size="1" >
+					
+				</select>
+				<button id="btnLoadTopic" onclick="loadSelectedTopic()">Load topic</button>
+			</div>
+			<div id="divTopic" >
+				
+				<div id="textTopic" style="visibility: hidden"></div><br>
+				<div id="image" ><img id="realImg" width="200px" height="200px" src="decks/mock.png">
+				
+				</div><br>
+				<div id="textLrn"></div><br>
+				<div id="textKnw"></div><br>
+				<div id="textLrnEx"></div><br>
+				<div id="textKnwEx"></div><br>
+
+				<br>
+				<button id="btnPrev" onclick="prevCard()" >Prev</button>--
+				<button id="btnStartStop" onclick="stopStart()">Stop</button>--
+				<button id="btnNext" onclick="nextCard()" >Next</button><br>
+			</div>
+		</div>
+	</body>
+	<script src="slideshow.js"></script>
+	<!--<script src="decks\big.js"></script>-->
+	
+</html>
