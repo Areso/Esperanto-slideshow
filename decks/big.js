@@ -86,7 +86,7 @@ cards = [
  {"lrn":"manĝi",
  "knw": "кушать",
  "lrn_ex": ["Petro kaj Sofia ne manĝas multe"],
- "knw_ex": ["Петр и София едят много"],
+ "knw_ex": ["Петр и София не едят много"],
  "img":""},
  {"lrn":"trinki",
  "knw": "пить",
